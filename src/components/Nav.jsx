@@ -28,7 +28,7 @@ const Nav = () => {
         <a href="/#service">Service</a>
         <a href="/#work">Our Work</a>
         <a href="/#contact">Contact</a>
-        <Link to="/dashboard">Dashboard</Link>
+        {/* <Link to="/dashboard">Dashboard</Link> */}
       </div>
       <IconButton onClick={toggleMenu} className="menu-button">
         {isMenuOpen ? (
